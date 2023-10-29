@@ -1,0 +1,26 @@
+:root {
+  --bg-primary: #102626;
+  --bg-second: rgba(24, 24, 24, 70);
+  --primary: linear-gradient(#5cac7e, #227345);
+  --second: #f9f9f9;
+  --terciary: #41f27f;
+}
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 10px;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.2rem;
+  overflow-x: hidden;
+  background-color: var(--bg-primary);
+  color: var(--second);
+  overflow-x: hidden;
+}

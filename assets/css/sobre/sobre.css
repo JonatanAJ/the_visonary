@@ -1,0 +1,60 @@
+
+#sobre-mim {
+  width: 100vw;
+  background: var(--bg-second);
+  padding: 200px 10px;
+}
+
+.sobre-mim {
+  display: flex;
+  flex: 1;
+}
+
+.sobre-mim-esquerda {
+  display: flex;
+  justify-content: center;
+  flex: 1;
+}
+
+.sobre-mim-esquerda img {
+  border-radius: 30px;
+}
+
+.sobre-mim-direita {
+  flex: 1;
+}
+
+.titulo p:first-child {
+  font-size: 3rem;
+  color: var(--terciary);
+  font-weight: 500;
+}
+
+.titulo p:first-child:after {
+  content: "";
+  display: inline-block;
+  width: 40px;
+  height: 5px;
+  background: var(--terciary);
+  margin: 4px 10px;
+}
+
+.sobre-mim-direita p {
+  font-size: 2rem;
+  max-width: 500px;
+  line-height: 30px;
+}
+
+.titulo h1 {
+  font-size: 2rem;
+  margin: 20px 0px;
+  font-weight: 300;
+}
+
+.sobre-mim-direita a {
+  display: inline-block;
+  text-decoration: none;
+  color: var(--second);
+  margin-top: 30px;
+  font-size: 2rem;
+}
