@@ -1,4 +1,4 @@
-
+/*sobre-mim*/
 #sobre-mim {
   width: 100vw;
   background: var(--bg-second);
@@ -24,6 +24,57 @@
   flex: 1;
 }
 
+.sobre-mim-direita p {
+  font-size: 2rem;
+  max-width: 500px;
+  line-height: 30px;
+}
+
+.sobre-mim-direita a {
+  display: inline-block;
+  text-decoration: none;
+  color: var(--second);
+  margin-top: 30px;
+  font-size: 2rem;
+}
+
+/*mentores*/
+#mentores {
+  width: 100vw;
+  background: var(--bg-second);
+  padding: 200px 10px;
+}
+
+.mentores {
+  display: flex;
+  flex: 1;
+}
+
+
+
+
+.mentores-esquerda {
+  display: flex;
+  justify-content: center;
+  flex: 1;
+}
+
+
+
+
+
+
+
+.mentores-esquerda img {
+  border-radius: 30px;
+}
+
+
+
+.mentores-direita {
+  flex: 1;
+}
+
 .titulo p:first-child {
   font-size: 3rem;
   color: var(--terciary);
@@ -39,11 +90,14 @@
   margin: 4px 10px;
 }
 
-.sobre-mim-direita p {
+
+
+.mentores-direita p {
   font-size: 2rem;
   max-width: 500px;
   line-height: 30px;
 }
+
 
 .titulo h1 {
   font-size: 2rem;
@@ -51,7 +105,56 @@
   font-weight: 300;
 }
 
-.sobre-mim-direita a {
+
+.mentores-direita a {
+  display: inline-block;
+  text-decoration: none;
+  color: var(--second);
+  margin-top: 30px;
+  font-size: 2rem;
+}
+
+
+
+
+
+
+/*ensino*/
+
+
+#ensino {
+  width: 100vw;
+  background: var(--bg-second);
+  padding: 200px 10px;
+}
+
+.ensino {
+  display: flex;
+  flex: 1;
+}
+
+
+.ensino-esquerda {
+  display: flex;
+  justify-content: center;
+  flex: 1;
+}
+
+
+.ensino-direita {
+  flex: 1;
+}
+
+
+.ensino-direita p {
+  font-size: 2rem;
+  max-width: 500px;
+  line-height: 30px;
+}
+
+
+
+.ensino-direita a {
   display: inline-block;
   text-decoration: none;
   color: var(--second);

@@ -12,6 +12,12 @@
   margin: 60px;
 }
 
+body{
+  margin: 0;
+  padding: 0;
+}
+
+
 
 #banner {
   width: 100vw;
@@ -41,8 +47,8 @@
 }
 
 .banner-esquerda h1 {
-  font-family: "Poppins";
-  font-size: 2.5rem;
+  font-family: "Poppins",sans-serif;
+  font-size: 3rem;
 padding: 10px 0px;
   font-weight: 900;
 }
@@ -55,7 +61,7 @@ padding: 10px 0px;
 }
 
 .banner-esquerda p {
-  font-size: 1.5rem;
+  font-size: 1.7rem;
   max-width: 550px;
   padding: 10px;
   line-height: 30px;
