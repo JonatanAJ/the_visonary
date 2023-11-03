@@ -1,4 +1,4 @@
-<h1 align="center"> Portifólio Pessoal</h1>
+<h1 align="center"> the visionary</h1>
 
 
 
@@ -11,4 +11,3 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - Javascript
 
 
-Feito com ♥ by [Maria Eduarda](https://github.com/EduardaCoffacci)
