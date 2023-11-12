@@ -22,11 +22,12 @@ body{
 #banner {
   width: 100vw;
   height: calc(130vh - 180px);
-  background-image: url(../images/banner.png);
+  background-image: url(../images/banner.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: right;
+  background-position: right;  
 }
+
 
 .banner {
   display: flex;
